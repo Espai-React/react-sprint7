@@ -12,7 +12,7 @@ const Panell = ({
 }) => {
   return (
     <Container>
-      <div>
+      <div className="div1">
         <label htmlFor="pagines">Número de pàgines</label>
         <div>
           <Boto
