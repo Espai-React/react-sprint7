@@ -102,7 +102,7 @@ export const useFormulari = () => {
     }));
   };
 
-  const setPagines = (numeroPagines, prev) => {
+  const setPagines = (numeroPagines) => {
     if (numeroPagines < 0 || isNaN(numeroPagines)) return;
     setFormulari((prev) => ({
       ...prev,
@@ -111,7 +111,7 @@ export const useFormulari = () => {
     }));
   };
 
-  const setIdiomes = (numeroIdiomes, prev) => {
+  const setIdiomes = (numeroIdiomes) => {
     if (numeroIdiomes < 0 || isNaN(numeroIdiomes)) return;
     setFormulari((prev) => ({
       ...prev,
